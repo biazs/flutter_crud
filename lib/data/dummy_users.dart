@@ -24,6 +24,12 @@ const DUMMY_USERS = {
     name: 'Fabiana',
     email: 'fabiana@alunos.com.br',
     avatarUrl: 'https://cdn.pixabay.com/photo/2016/03/31/19/58/avatar-1295429_1280.png'
+  ),
+    '5' : const User(
+    id: '5',
+    name: 'Fulano',
+    email: 'fulano@alunos.com.br',
+    avatarUrl: ''
   )
 
   
