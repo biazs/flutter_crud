@@ -13,4 +13,8 @@ int get count {
   return _items.length;
 }
 
+User byIndex(int i){
+  return _items.values.elementAt(i);
+}
+
 }
