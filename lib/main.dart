@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_crud/views/user_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,11 +27,12 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: UserList(),
     );
   }
 }
 
+/*
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -115,3 +117,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+*/
